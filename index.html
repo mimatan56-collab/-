@@ -68,6 +68,21 @@
         box-shadow: 0 12px 24px rgba(185, 93, 50, 0.24);
       }
 
+      .portrait-wrap {
+        display: flex;
+        justify-content: center;
+        margin: 18px 0 20px;
+      }
+
+      .portrait {
+        display: block;
+        width: min(100%, 440px);
+        border-radius: 22px;
+        box-shadow: 0 12px 28px rgba(32, 15, 10, 0.12);
+        border: 1px solid rgba(32, 15, 10, 0.08);
+        background: #f3e3d7;
+      }
+
       .eyebrow {
         margin: 0;
         color: var(--accent);
@@ -127,6 +142,10 @@
       <article class="card">
         <div class="topbar">
           <div class="badge">ע</div>
+        </div>
+
+        <div class="portrait-wrap">
+          <img class="portrait" src="illustration.svg" alt="ענבל ליברמן" />
         </div>
 
         <p class="eyebrow">סיפור גבורה</p>
